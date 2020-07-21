@@ -24,13 +24,13 @@ Para compilar o programa basta rodar, no terminal, o comando <em>make run</em>.<
   <li><em>stdlib.h</em>;</li>
   <li><em>math.h</em>: para cálculos de DCT e IDCT;</li>
   <li><em>time.h</em>: para checar o tempo gasto no processo de compressão e de descompressão.</li>
-</ul><br><br>
+</ul><br>
 	
 <h3>Estruturas de dados utilizadas:</h3>
 <ul>
   <li><em>BMPCabecalho</em>: estrutura que armazena o cabecalho da imagem (padrão BMP);</li>
   <li><em>BMPImagem</em>: estrutura que armazenda os dados dos canais RGB (padrão BMP).</li>
-</ul><br><br>
+</ul><br>
 
 <h3>Descrição</h3>
 <p>Para a implementação do projeto de compressao e descompressao, foram utilizadas duas técnicas principais: a DCT, com tabela de quantização (compressão com perdas) e o run-length (compressão sem perdas).</p>
