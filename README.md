@@ -29,7 +29,7 @@ Para compilar o programa basta rodar, no terminal, o comando <em>make run</em>.<
   <li><em>stdlib.h</em>;</li>
   <li><em>math.h</em>: para cálculos de DCT e IDCT;</li>
   <li><em>time.h</em>: para checar o tempo gasto no processo de compressão e de descompressão.</li>
-</ul><br>
+</ul>
 	
 <h3>Estruturas de dados utilizadas:</h3>
 <ul>
