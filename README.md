@@ -12,7 +12,7 @@ Giovana Daniele da Silva&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n
 <h3>Descrição</h3>
 <p>Para a implementação do projeto de compressao e descompressao, foram utilizadas duas técnicas principais: a DCT, com tabela de quantização (compressão com perdas) e o run-length (compressão sem perdas).</p>
 <p>Após da leitura da imagem (cabeçalho e componentes RGB), os canais RGB foram transformados em YCbCr, para o cálculo da Transformada discreta dos cossenos (DCT), que transfere a maior parte da informação contida para os primeiros elementos da matriz. A partir dessa matriz DCT, foi possível aplicar uma tabela de quantização (para a compressão com perdas), e o run-length, técnica para comprimir cadeias	de caracteres onde existem sequências longas de caracteres repetidos (compressão sem perdas). Esses dados comprimidos foram escritos em um arquivo ("comprimido.gagi").</p>
-<p>Para descomprimir o arquivo, é necessario decodificar o run-length, aplicar a inversa da Transformada discreta dos cossenos (IDCT), transformar a matriz novamente para RGB e escrevê-la no arquivo ("imagemFinal.bmp").</p>
+<p>Para descomprimir o arquivo, é necessario decodificar o run-length, aplicar a inversa da Transformada discreta dos cossenos (IDCT), transformar a matriz novamente para RGB e escrevê-la no arquivo ("imagemFinal.bmp").</p><br>
 
 <h3>Compilador</h3>
 : GCC 7.4.0<br><br>
